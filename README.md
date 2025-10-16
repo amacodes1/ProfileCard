@@ -41,7 +41,12 @@ It includes a **theme toggle**, **live timestamp**, and **data-testid attributes
 
 ## File Structure
 
-<pre> project-folder/ │ ├── index.html ├── style.css ├── script.js └── images </pre>
+<pre> project-folder/
+│
+├── index.html
+├── style.css
+├── script.js
+└── images </pre>
 
 ---
 
