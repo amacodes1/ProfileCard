@@ -5,6 +5,13 @@ It includes a **theme toggle**, **live timestamp**, and **data-testid attributes
 
 ---
 
+## 🌐 Live Demo
+
+🔗 **Live URL:** (https://mercy-ezihe-profile-card.vercel.app/)
+💻 **GitHub Repo:** (https://github.com/amacodes1/ProfileCard.git)
+
+---
+
 ## Preview
 
 | Light Mode | Dark Mode |
