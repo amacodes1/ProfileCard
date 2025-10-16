@@ -8,8 +8,6 @@ It includes a **theme toggle**, **live timestamp**, and **data-testid attributes
 ## Preview
 
 | Light Mode | Dark Mode |
-|-------------|------------|
-| ![Light Mode](./screenshots/light-mode.png) | ![Dark Mode](./screenshots/dark-mode.png) |
 
 > On small screens, the card stacks vertically.  
 > On wider screens, the avatar is positioned on the left and text on the right for a balanced layout.
@@ -42,13 +40,14 @@ It includes a **theme toggle**, **live timestamp**, and **data-testid attributes
 ---
 
 ## File Structure
+
 project-folder/
 │
-├── index.html # Main HTML file
-├── style.css # Styles and responsive layout
-├── script.js # Theme + Time logic
+├── index.html
+├── style.css
+├── script.js
 └── images/
-└── hero-pic.JPG # Profile image
+    └── hero-pic.JPG
 
 ---
 
