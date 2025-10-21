@@ -7,89 +7,95 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Theme toggle -->
-    <div class="toggle-container">
-      <input type="checkbox" id="theme-toggle" />
-      <label for="theme-toggle" class="toggle-label">
-        <div class="ball"></div>
-      </label>
-    </div>
+    <!-- Layout Placeholder -->
+    <div id="layout-header"></div>
 
-    <!-- Profile Card -->
-    <article class="profile-card" data-testid="test-profile-card">
-      <div class="profile-inner">
-        <figure class="profile-avatar">
-          <img
-            id="avatar"
-            src="./images/hero-pic.JPG"
-            alt="User Avatar"
-            data-testid="test-user-avatar"
-          />
-          <figcaption>
-            <label for="avatar-upload" class="upload-label">Change Avatar</label>
-            <input
-              type="file"
-              id="avatar-upload"
-              accept="image/*"
-              hidden
+    <main class="content">
+      <!-- Profile Card -->
+      <article class="profile-card" data-testid="test-profile-card">
+        <div class="profile-inner">
+          <figure class="profile-avatar" data-testid="test-avatar-section">
+            <img
+              id="avatar"
+              src="./images/hero-pic.JPG"
+              alt="User Avatar"
+              data-testid="test-user-avatar"
             />
-          </figcaption>
-        </figure>
+            <figcaption>
+              <label
+                for="avatar-upload"
+                class="upload-label"
+                data-testid="test-upload-label"
+                >Change Avatar</label
+              >
+              <input
+                type="file"
+                id="avatar-upload"
+                accept="image/*"
+                hidden
+                data-testid="test-avatar-upload"
+              />
+            </figcaption>
+          </figure>
 
-        <div class="profile-content">
-          <header>
-            <h2 data-testid="test-user-name">Mercy Ezihe</h2>
-            <h4>Frontend Developer</h4>
-          </header>
+          <div class="profile-content" data-testid="test-profile-content">
+            <header>
+              <h2 data-testid="test-user-name">Mercy Ezihe</h2>
+              <h4 data-testid="test-user-title">Frontend Developer</h4>
+            </header>
 
-          <p data-testid="test-user-bio" class="bio">
-            I am a highly motivated frontend developer with a strong passion for
-            building interactive, user-friendly web applications. With
-            experience in <strong>React.js</strong> and
-            <strong>Next.js</strong>, I focus on creating responsive, accessible,
-            and efficient digital experiences.
-          </p>
+            <p data-testid="test-user-bio" class="bio">
+              I am a highly motivated frontend developer with a strong passion
+              for building interactive, user-friendly web applications.
+              Experienced in <strong>React.js</strong> and
+              <strong>Next.js</strong>, I focus on creating responsive,
+              accessible, and efficient digital experiences.
+            </p>
 
-          <p id="time" data-testid="test-user-time"></p>
+            <p id="time" data-testid="test-user-time"></p>
 
-          <nav data-testid="test-user-social-links" class="social-links">
-            <a
-              href="https://www.linkedin.com/in/mercyezihe/"
-              target="_blank"
-              rel="noopener noreferrer"
-              data-testid="test-user-social-linkedin"
-              >LinkedIn</a
-            >
-            <a
-              href="https://github.com/amacodes1/"
-              target="_blank"
-              rel="noopener noreferrer"
-              data-testid="test-user-social-github"
-              >GitHub</a
-            >
-          </nav>
+            <nav class="social-links" data-testid="test-user-social-links">
+              <a
+                href="https://www.linkedin.com/in/mercyezihe/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+                >LinkedIn</a
+              >
+              <a
+                href="https://github.com/amacodes1/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+                >GitHub</a
+              >
+            </nav>
 
-          <section data-testid="test-user-hobbies">
-            <h3>Hobbies</h3>
-            <ul>
-              <li>Coding</li>
-              <li>Design</li>
-              <li>Reading</li>
-            </ul>
-          </section>
+            <section data-testid="test-user-hobbies" class="test-user-hobbies">
+              <h3>Hobbies</h3>
+              <ul>
+                <li>Coding</li>
+                <li>Design</li>
+                <li>Reading</li>
+              </ul>
+            </section>
 
-          <section data-testid="test-user-dislikes">
-            <h3>Dislikes</h3>
-            <ul>
-              <li>Procrastination</li>
-              <li>Slow Wi-Fi</li>
-              <li>Unclear requirements</li>
-            </ul>
-          </section>
+            <section data-testid="test-user-dislikes" class="test-user-dislikes">
+              <h3>Dislikes</h3>
+              <ul>
+                <li>Procrastination</li>
+                <li>Slow Wi-Fi</li>
+                <li>Unclear requirements</li>
+              </ul>
+            </section>
+          </div>
         </div>
-      </div>
-    </article>
+      </article>
+    </main>
 
+    <div id="layout-footer"></div>
+
+    <script src="layout.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
