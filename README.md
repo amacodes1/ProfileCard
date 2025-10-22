@@ -51,9 +51,14 @@ It includes a **theme toggle**, **live timestamp**, and **data-testid attributes
 <pre> project-folder/
 │
 ├── index.html
+├── about.html
+├── contact.html
+│
 ├── style.css
 ├── script.js
-└── images </pre>
+├── layout.js
+│
+└── images/ </pre>
 
 ---
 
@@ -80,6 +85,22 @@ It includes a **theme toggle**, **live timestamp**, and **data-testid attributes
 | GitHub Link | `test-user-social-github` |
 | Hobbies List | `test-user-hobbies` |
 | Dislikes List | `test-user-dislikes` |
+|----------|---------------|
+| Contact Page | `test-contact-page` |
+| Full Name | `test-contact-name` |
+| Email | `test-contact-email` |
+| Subject | `test-contact-subject` |
+| Message | `test-contact-message` |
+| Submit Button | `test-contact-submit` |
+| Success Message | `test-contact-success` |
+| Error Messages | `test-contact-error-name` `test-contact-error-email` `test-contact-error-subject` `test-contact-error-message` |
+|----------|---------------|
+| About Page | `test-about-page` |
+| Bio | `test-about-bio` |
+| Goals | `test-about-goals` |
+| Confidence | `test-about-confidence` |
+| Future Notes | `test-about-future-note` |
+| Extra | `test-about-extra`|
 
 ---
 
