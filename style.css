@@ -161,6 +161,10 @@ body.dark .navbar {
   transition: all 0.3s ease;
 }
 
+body.dark .hamburger span {
+  background: #eee;
+}
+
 /* X animation */
 .hamburger.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
